@@ -9,6 +9,7 @@
 
             Random random = new Random();
             byte[] numbers = new byte[lenght];
+
             random.NextBytes(numbers);
             Console.WriteLine("Изначальный список: ");
             ShowArray(numbers);
